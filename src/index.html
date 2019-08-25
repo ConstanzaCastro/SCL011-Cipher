@@ -6,9 +6,43 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div id="root">
-      <h1>Hola mundo!</h1>
-    </div>
+    <div id="root"></div>
+      <h1>Mensaje Secreto</h1>
+        <article>
+            <h2>¡Bienvenide!</h2>
+               <h3> Estas a punto de utilizar Mensaje Secreto, con esta genial herramienta podrás escribir mensajes alfabéticos en clave para enviarles a tus amigos y también descubrir el significado de un mensaje, descifrándolo.
+                 Sigue atento las instrucciones y diviertete con Mensaje Secreto</h3></article>
+    
+    <h2>Instrucciones:</h2>
+        
+    <h3>Antes de escribir tu mensaje o descifrar tu mensaje debes elegir una clave de cifrado, para eso debes ingresar un número y dar click en Aplicar.
+            Luego, dentro del cajón correspondiente debes escribir tu mensaje para cifrar/descifrar, dar click, y listo!</h3>
+         
+        
+        <div>
+            <input placeholder="Ingresa un número " name="number" id="offset1" value=""/>
+            <button name="btnsave" id="saveoff1" >Aplicar</button>
+        </div>
+        
+  
+   
+   <h4> 
+    <textarea placeholder="Ingresa tu mensaje para cifrar" name="msje" id="text1" rows="10" cols="50"></textarea>
+    <textarea placeholder="Mensaje Cifrado " name="msje2" id="text2" rows="10" cols="50"></textarea>
+    <br>
+    <button id="btnencode">Cifrar</button></h4>
+   
+    <div><input placeholder="Ingresa un número " name="number" id="offset2" value=""/>
+    <button name="btnsave" id="saveoff2" >Aplicar</button></div>
+
+   <h5>
+    <textarea placeholder="Ingresa tu mensaje para descifrar " name="msje3" id="text3" rows="10" cols="50"></textarea>
+    <textarea placeholder="Mensaje Descifrado" name="msje4" id="text4" rows="10" cols="50"></textarea>
+    <br>
+    <button id="btndecode">Descifrar</button></h5>
+   <div>
+    <button id="limpiar">Limpiar</button>
+</div>
     <script src="cipher.js"></script>
     <script src="index.js"></script>
   </body>
